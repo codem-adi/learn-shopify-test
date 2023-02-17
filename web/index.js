@@ -18,6 +18,11 @@ const STATIC_PATH =
 
 const app = express();
 
+//adding this section to check the web
+app.get("/apps/cart-discount/name",(req,resp)=>{
+  resp.status(200).json("getting your request")
+})
+
 // Set up Shopify authentication and webhook handling
 app.get(shopify.config.auth.path, shopify.auth.begin());
 
