@@ -19,7 +19,7 @@ const STATIC_PATH =
 const app = express();
 
 //adding this section to check the web
-app.get("/apps/cart-discount/name",(req,resp)=>{
+app.get("/name/test",(req,resp)=>{
   resp.status(200).json("getting your request")
 })
 
