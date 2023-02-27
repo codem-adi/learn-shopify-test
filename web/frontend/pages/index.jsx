@@ -143,10 +143,11 @@ export default function HomePage() {
               }
               onSelectionChange={handleSelectionChange}
               headings={[
-                { title: "Name" }, //title
+                { title: "Product Image" },
+                { title: "Product Name" }, //title
                 { title: "Weight" }, //price
                 { title: "Price" }, //weight
-                { title: "Status" }, // images/src
+                 // images/src
               ]}
             >
               {rowMarkup}
